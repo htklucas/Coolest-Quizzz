@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagens/icone.ico.png">
+    <link rel="stylesheet" href="CoolestQuizzz.css">
+
+    <title>The Coolest Quizzz</title>
+</head>
+<body>
+    <section class="container">
+        <img src="imagens/header.png" alt="Header">
+
+        <div class="cards">
+            <div class="cardInd">
+                <h1 class="perguntas">Pergunta 1</h1>
+                <strong><p>You and me?</p></strong>
+            </div>
+
+            <div class="cardInd">
+                <h1 class="perguntas">Pergunta 2</h1>
+                <strong><p>Me n you?</p></strong>
+            </div>
+
+            <div class="cardInd">
+                <h1 class="perguntas">Pergunta 3</h1>
+                <strong><p>Sun down,</p></strong>
+            </div>
+        </div>
+
+        <div class="escolhasTexto">
+
+            <h1 class="escolhaMensagem">Escolha sua resposta</h1>
+
+            <h1 class="escolhaMensagem">Escolha sua resposta</h1>
+
+            <h1 class="escolhaMensagem">Escolha sua resposta</h1>
+
+        </div>
+
+        <div class="escolhasInput">
+            <select id="pergunta1">
+                <option value="-4" selected>Resposta</option>
+                <option value="0">Nao sei</option>
+                <option value="0">Idk?</option>
+                <option value="1">Always forever!</option>
+            </select>        
+            <select id="pergunta2">
+                <option value="-4" selected>Resposta</option>
+                <option value="1">Me n you</option>
+                <option value="0">No</option>
+                <option value="0">Maybe</option>
+            </select>        
+            <select id="pergunta3">
+                <option value="-4" selected>Resposta</option>
+                <option value="1">I'm up</option>
+                <option value="1">I'm up</option>
+                <option value="1">I'm up</option>
+            </select>        
+        </div>
+        
+        <div class="respostaShow">
+            <img class="ladosImg" src="imagens/icone-direita.png" alt="icone-direita">
+            <h1>Sua pontuação</h1>
+            <input id="pontuacao" readonly>
+            <button onclick="resultado()">Finalizar Quizzz</button>
+            <img class="ladosImg" src="imagens/icone-esquerda.png" alt="icone-esquerda">
+        </div>
+
+    <script src="CoolestQuizzz.js"></script>
+</section>
+
+</body>
+</html>
